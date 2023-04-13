@@ -1,0 +1,35 @@
+.container{
+    background-image: url("../../../assets/images/oops-404-error-with-broken-robot-concept-illustration_114360-5529.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    height: 720px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.container__p{
+    color: red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    
+}
+.container__button{
+    justify-content: center;
+    margin-top: 20px;
+    align-items: center;
+    height: 40px;
+    background-color: black;
+    color: wheat;
+    cursor: pointer;
+}
+.container__button:hover{
+    justify-content: center;
+    margin-top: 20px;
+    align-items: center;
+    height: 40px;
+    background-color: black;
+    color: yellow;
+    cursor: pointer;
+}
