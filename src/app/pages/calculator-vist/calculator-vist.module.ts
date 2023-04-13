@@ -1,14 +1,22 @@
+import { CalculatorVistRoutingModule } from './calculator-vist-routing.module';
+import { CalculatorVistComponent } from './calculator-vist.component';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
-import { CalculatorVistRoutingModule } from './calculator-vist-routing.module';
+
 
 
 @NgModule({
-  declarations: [],
+  declarations: [
+    CalculatorVistComponent
+  ],
   imports: [
     CommonModule,
     CalculatorVistRoutingModule
+    
+  ],
+  exports: [
+
   ]
 })
 export class CalculatorVistModule { }
