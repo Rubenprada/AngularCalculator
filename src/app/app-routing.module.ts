@@ -4,10 +4,13 @@ import { RouterModule, Routes } from '@angular/router';
 const routes: Routes = [
   {
     path: '',
-    redirectTo: 'home',
+    redirectTo: 'vist',
     pathMatch: 'full'
   },
- 
+  {
+    path: 'vist',
+    loadChildren: () => import('./pages/calculator-vist/calculator-vist.module').then(m=>m.CalculatorVistModule)
+  }
 ];
 
 @NgModule({

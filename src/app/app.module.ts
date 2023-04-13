@@ -7,9 +7,11 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
 
+
 @NgModule({
   declarations: [
     AppComponent,
+    
     
   ],
   imports: [
@@ -18,6 +20,9 @@ import { AppComponent } from './app.component';
     
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  exports: [
+    
+  ]
 })
 export class AppModule { }
