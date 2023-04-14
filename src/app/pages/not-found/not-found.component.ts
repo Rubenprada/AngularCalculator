@@ -9,10 +9,12 @@ import { Router } from '@angular/router';
 export class NotFoundComponent {
 
   constructor(
+    //metemos router para poder hacer navegaciones
     private router: Router
   ) {
 
   }
+  //funcion para el boton, al pulsarlo te lleva a la vist, que es la calculadora
   public return() {
     this.router.navigate(['vist'])
   }
